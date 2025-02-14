@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+torch = "*"
+pandas = "*"
+plotly = "*"
+factor-analyzer = "*"
+
+[dev-packages]
+pytest = "*"
+jupyter = "*"
+nbformat = "*"
+
+[requires]
+python_version = "3.13"
